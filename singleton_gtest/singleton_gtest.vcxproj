@@ -47,6 +47,9 @@
     <ProjectReference Include="..\..\for_gtest\for_gtest\for_gtest.vcxproj">
       <Project>{e5946bb6-9f98-44a0-a2f9-39be0e6d40c9}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Singleton_src\Singleton_src.vcxproj">
+      <Project>{919c83f1-b4ca-4652-b275-876fb0b99e87}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
@@ -68,7 +71,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;%(AdditionalIncludeDirectories);D:\code\tutorials\gtests\for_gtest\for_gtest</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;%(AdditionalIncludeDirectories);D:\code\tutorials\gtests\singleton_test\Singleton_src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
